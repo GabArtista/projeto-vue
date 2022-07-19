@@ -1,0 +1,78 @@
+{
+  "plano": {
+    "nets": [
+      {
+        "id": 1,
+        "valor": "100mb"
+      },
+      {
+        "id": 2,
+        "valor": "200mb"
+      },
+      {
+        "id": 3,
+        "valor": "300mb"
+      }
+    ],
+    "tvs": [
+      {
+        "id": 1,
+        "tipo": "Ultimate HD"
+      },
+      {
+        "id": 2,
+        "tipo": "Full HD"
+      }
+    ],
+    "telefones": [
+      {
+        "id": 1,
+        "tipo": "Ilimitado Fixo"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Esperando pagamento"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "pedido": [
+    {
+      "id": 1,
+      "nets": "200mb",
+      "tvs": "ultimatehd",
+      "telefones": "ilimitado fixo",
+      "status": "Finalizado"
+    },
+    {
+      "nets": "100mb",
+      "tvs": "fullhd",
+      "telefones": "ilimitado fixo",
+      "status": "Esperando pagamento",
+      "id": 3
+    },
+    {
+      "nets": "100mb",
+      "tvs": "ultimatehd",
+      "telefones": "ilimitado fixo",
+      "status": "Solicitado",
+      "id": 4
+    },
+    {
+      "nets": "100mb",
+      "tvs": "fullhd",
+      "telefones": "ilimitado fixo",
+      "status": "Solicitado",
+      "id": 5
+    }
+  ]
+}
